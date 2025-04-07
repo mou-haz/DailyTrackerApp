@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://mou-haz.github.io/DailyTrackerApp/DailyTracker_x86.appinstaller"
+	Version="0.194.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="DailyTrackerApp"
+		Version="0.194.1.0"
+		Publisher="CN=mouha"
+		Uri="https://mou-haz.github.io/DailyTrackerApp/DailyTracker_0.194.1.0_x86_Test/DailyTracker_0.194.1.0_x86.msix"
+		ProcessorArchitecture="x86" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.7"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="https://mou-haz.github.io/DailyTrackerApp/DailyTracker_0.194.1.0_x86_Test/Dependencies/x86/Microsoft.WindowsAppRuntime.1.7.msix"
+			Version="7000.435.154.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
